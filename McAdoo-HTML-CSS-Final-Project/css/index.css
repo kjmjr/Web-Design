@@ -1,0 +1,551 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	
+	
+	padding-bottom: 3%;
+	padding-top:  2%;
+	margin: 2%;
+	background-color: #ccccb3;
+	text-align: center;
+	
+}
+
+#entire-page{
+	
+	background-color: white;
+	margin: 8%;
+	padding: 1%;
+	border-radius: 10px;
+	position:relative;
+	
+}
+
+#section{
+	
+
+	position:absolute; 
+	left: 465px;
+
+	
+   
+}
+
+#entire-page p:first-letter{
+	
+	font-size: 200%;
+	
+}
+h1, h2, h3{
+	
+	text-transform: uppercase;
+	
+}
+
+.header1{
+	
+	text-align: center;
+	color: white;
+	position: relative;
+
+	
+    
+	 
+}
+
+.Documentary{
+	
+	font-size: 200%;
+	color: black;
+	font-family: "Arial", Baskerville, Palatino, Century Schoolbook, Times New Roman, serif;
+	text-decoration:underline;
+	
+}
+
+#intro{
+	
+	float:left;
+	width: 40%;
+	background-color: #efefef;
+	border-radius: 20px;
+	padding: 2%;
+	margin: 5%;
+	
+}
+
+#blockquote{
+	
+	
+	float: right;
+	border: 3px solid #330000;
+	text-align: center;
+	background-color: #e6e6e6;
+	width: 30%;
+	margin: 4%;
+	padding: 3%;
+	border-radius: 20px;
+	clear: right;
+}
+
+#ages_paragraph{
+	
+	float:left;
+	width: 36%;
+	background-color: #efefef;
+	border-radius: 20px;
+	padding: 4%;
+	margin: 3%;
+	clear: both;
+}
+
+#hype_paragraph{
+	
+	float: right;
+	width: 36%;
+	background-color: #efefef;
+	border-radius: 20px;
+	padding: 3%;
+	margin: 3%;
+}
+
+#teams{
+	
+	float:right;
+	margin: 1%;
+    clear: right;
+	background-color: #efefef;
+	padding: 2%;
+	border-radius: 20px;
+	margin-right: 4%;
+	
+	
+}
+
+
+#NCAA{
+	
+	float:right;
+	margin: 2%;
+	background-color: #efefef;
+	padding: 1%;
+	border-radius: 20px;
+	margin-right: 3%;
+}
+
+#definition_list{
+	
+	float:right;
+	margin: 1%;
+	background-color: #efefef;
+	padding: 2%;
+	border-radius: 20px;
+	margin-right: 4%;
+}
+
+
+.unordered-list{
+	
+	margin-right: 11%;
+	
+}
+
+#background-basketball{
+
+	background-image: url("../images/balls.jpg");
+	height: 250px;
+	margin: 4%;
+	background-repeat: repeat;
+	color: #efefef;
+	
+	
+}
+
+dt{
+	
+	text-align: left;
+	
+}
+
+dd{
+	
+	text-align: left;
+	line-height: 2em;
+	
+}
+
+
+#blockquote p:first-letter{
+	
+	font-size: 100%;
+	
+}
+
+p.credits{
+	
+	position: relative;
+	right: 1%;
+	
+}
+
+img.medium{
+	
+	width: 200px;
+	height: 200px;
+	
+}
+
+img.goal {
+	
+	
+	float:left;
+	clear: left;
+	margin: 15px 15px 0px 0px;
+	
+	
+}
+
+
+img.dunk{
+	
+	float:right;
+	clear:right;
+	margin: 0px 0px 15px 15px;
+	
+	
+}
+
+
+#favoritism{
+	
+	width: 38%;
+	float: left;
+	margin: 3%;
+	padding: 3%;
+	border-radius: 20px;
+	
+}
+
+
+
+
+#college{
+	
+	width: 38%;
+	float: right;
+	margin: 3%;
+	padding: 3%;
+	border-radius: 20px;
+	
+}
+
+.pro{
+	
+	margin-left: 6%;
+	
+}
+
+.co{
+	
+	margin-right: 6%;
+	
+}
+
+a.miami:hover{
+	
+	color: red;
+}
+a.miami {
+	color: #ffcc66;
+	text-decoration: none;
+	
+}
+
+a.tarheel:hover{
+	
+	color: lightblue;
+	
+	
+}
+
+a.tarheel{
+	
+	color: #ffcc66;
+	text-decoration: none;
+	
+}
+
+#video{
+	
+	float:left;
+	margin: 1%;
+	
+	
+}
+
+.success{
+	
+	width: 550px; 
+	height: 400px; 
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border-radius: 20px;
+	
+}
+
+
+
+aside{
+	
+	float: right;
+	margin: 0px 0px 15px 15px;
+	line-height: 25px;
+	
+
+	
+}
+
+
+#Historic{
+	
+	margin: 5%;
+	padding: 5%;
+	background-color: #efefef;
+	border-radius: 50px;
+}
+
+
+p{
+	
+	line-height: 2em;
+	text-indent: 1.5em;
+	word-spacing: 0.1em;
+	text-align: left;
+}
+
+q{
+	
+	font-size: 170%;
+	font-weight: bold;
+	
+	
+}
+
+header{
+	
+	text-align:center;
+	text-transform: uppercase;
+	color: red;
+	font-family: "Arial", Baskerville, Palatino, Century Schoolbook, Times New Roman, serif;
+	font-size: 15px;
+	letter-spacing: 0.1em;
+	margin: 3%;
+	
+}
+
+hr.dark{
+	
+	
+	border: 1px solid black; 
+   
+}
+
+
+ul li.nav{
+	
+	display:inline-block;
+	display: overflow;
+	list-style: none;
+	margin-right: 25px;
+	position: relative;
+	text-align:center;
+	
+	
+}
+
+ul li.nav a{
+	
+	
+    text-decoration: none;
+}
+
+ul li.nav:hover{
+	
+	
+	background-color: lightblue;
+	text-decoration: underline;
+    
+}
+
+ul li{
+	
+	text-align: left;
+	
+}
+
+ol li{
+	
+	text-align: left;
+	
+}
+
+
+
+#bottom-info{
+	
+	background-color: #ccccb3;
+	margin: 4%;
+    padding: 1%;
+    
+}
+
+#table{
+	
+	
+	position: relative;
+	padding-top: 3%;
+    margin-left: 50%;
+	padding-bottom: 3%;
+	clear: both;
+	
+
+}
+
+th, td{
+	
+	padding: 7px 10px 10px 10px;
+	border-bottom: 3px solid #111111;
+	
+}
+
+td.blue{
+	
+	background-color: #00ffff;
+	
+}
+
+th.blue{
+	
+	background-color: #00ffff;
+}
+
+td.green{
+	
+	background-color:#66ff33;
+}
+
+th.green{
+	
+	background-color:#66ff33;
+}
+
+
+
+th{
+	
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 80%;
+	border-bottom: 3px solid #111111;
+	border-top: 2px solid #999;
+	text-align: left;
+    font-weight: thick;
+}
+
+#form{
+	
+	margin: 10%;
+	padding-bottom: 1%;
+	width: 80%;
+	text-transform: uppercase;
+	
+}
+
+#form p:first-letter{
+	
+	
+	font-size: 100%;
+}
+
+fieldset{
+	
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+	padding: 5%;
+	text-align: left;
+}
+
+legend{
+	
+	background-color: #efefef;
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+	padding: 8px 8px;
+	text-align: left;
+	letter-spacing: 0.1em;
+	
+}
+
+.button{
+	
+	border-radius: 10px;
+	border: 1px dotted #dcdcdc;
+	background-color: #b9e4e3;
+	text-align: left;
+	text-shadow: 0px 1px #ffffff;
+	text-transform: uppercase;
+	margin: 2%;
+	padding: 2%;
+	position: relative;
+	left: 67%;
+	
+}
+
+
+
+input.input{
+	
+	
+	text-align: left;
+	margin: 3%;
+}
+
+select{
+	
+	text-align: right;
+	margin: 3%;
+	letter-spacing: 0.1em;
+	background-color: #efefef;
+	border-radius: 10px;
+	border: 1px dotted #dcdcdc;
+	padding: 1%;
+	
+	
+}
+textarea{
+	
+	margin-left: 3%;
+	
+}
+.sign-up{
+	
+	margin: 5%;
+	letter-spacing: 0.1em;
+}
+
+
+.button:hover{
+	
+	background-color:#efefef;
+	
+}
+
+footer{
+	
+	border-bottom: 3px solid #111111;
+	border-top: 3px solid #111111;
+	
+}
+
+
+
